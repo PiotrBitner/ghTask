@@ -23,6 +23,7 @@
 		FF3EC27223FD62B400E8BCB1 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3EC27123FD62B400E8BCB1 /* Fetcher.swift */; };
 		FF5712AF23FF1FFE005072A5 /* DateTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5712AE23FF1FFE005072A5 /* DateTool.swift */; };
 		FFD9B46F23FFD73800DAB871 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD9B46E23FFD73800DAB871 /* ActivityIndicator.swift */; };
+		FFEB886E240311F4008B13DB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB886D240311F4008B13DB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FF3EC27123FD62B400E8BCB1 /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		FF5712AE23FF1FFE005072A5 /* DateTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTool.swift; sourceTree = "<group>"; };
 		FFD9B46E23FFD73800DAB871 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		FFEB886D240311F4008B13DB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				FF3EC26723FD54D900E8BCB1 /* MasterView.swift */,
 				FF3EC26D23FD5BE700E8BCB1 /* RepositoryRowView.swift */,
 				FF3E88B1240078470013D8C2 /* WebView.swift */,
+				FFEB886D240311F4008B13DB /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3EC26223FD522600E8BCB1 /* MasterViewModel.swift in Sources */,
+				FFEB886E240311F4008B13DB /* DetailView.swift in Sources */,
 				FF5712AF23FF1FFE005072A5 /* DateTool.swift in Sources */,
 				FF3EC27223FD62B400E8BCB1 /* Fetcher.swift in Sources */,
 				FFD9B46F23FFD73800DAB871 /* ActivityIndicator.swift in Sources */,

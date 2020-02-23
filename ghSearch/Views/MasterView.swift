@@ -36,8 +36,9 @@ struct MasterView: View {
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle("🌐 Repository")
+            .navigationViewStyle(StackNavigationViewStyle())
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+        //.navigationViewStyle(StackNavigationViewStyle())
        
     }
 }
@@ -60,9 +61,8 @@ private extension MasterView {
     var resultsSection: some View {
         Section {
             ForEach(viewModel.dataSource) { detailViewModel in
-                NavigationLink( destination:  WebView(request: URLRequest(url: URL(string: detailViewModel.dataSource.htmlURL)!))){
+                NavigationLink( destination: DetailView(viewModel: detailViewModel)){
                     RepositoryRowView.init(viewModel: detailViewModel)
-                    
                 }
             }
         }
